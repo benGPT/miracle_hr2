@@ -2,6 +2,5 @@ streamlit
 bcrypt
 pillow
 plotly
-streamlit_antd_component
-streamlit_extras
+
 
