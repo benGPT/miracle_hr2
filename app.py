@@ -33,8 +33,8 @@ def main():
         --secondary-color: #8B4513;
         --accent-color-1: #8B0000;
         --accent-color-2: #4B0082;
-        --text-color: black;
-        --background-color: black;
+        --text-color: blue;
+        --background-color: lemonchiffon;
     }
 
     html, body, [class*="css"] {
@@ -58,12 +58,12 @@ def main():
     }
 
     .stButton > button:hover {
-        background-color: var(--secondary-color);
+        background-color: red;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     .stTextInput > div > div > input {
-        border-color: var(--primary-color);
+        border-color:red;
         border-radius: 5px;
         color: green;
         background-color: white;
@@ -98,10 +98,10 @@ def main():
         font-weight: bold;
     }
 
-    /* Mobile optimization */
+    /* Mobile optimization */  
     @media (max-width: 768px) {
         html, body, [class*="css"] {
-            font-size: 10px;
+            font-size: 11px;
         }
 
         .stButton > button {
