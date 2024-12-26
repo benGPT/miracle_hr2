@@ -71,12 +71,12 @@ def show_landing_page():
         background-position: center;
         color: blue;
         text-align: center;
-        padding: 4rem 2rem;
-        border-radius: 10px;
+        padding: 0rem 0rem;
+        border-radius: 4px;
         margin-bottom: 2rem;
     }
     .hero h1 {
-        font-size: 5rem;
+        font-size: 2.7rem;
         margin-bottom: 2rem;
         color: green;
         text-shadow: 5px 2px 4px rgba(0,0,0,0.5);
@@ -92,7 +92,7 @@ def show_landing_page():
         background-color: var(--accent-color-1);
         color: white;
         padding: 0.75rem 1.5rem;
-        font-size: 1.1rem;
+        font-size:7.1rem;
         border-radius: 5px;
         text-decoration: none;
         transition: background-color 0.3s ease;
@@ -104,7 +104,7 @@ def show_landing_page():
         background-color:pink;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 1.5rem;
+        padding: 1rem;
         text-align: center;
         height: 100%;
     }
@@ -116,7 +116,7 @@ def show_landing_page():
     }
     .feature-card h3 {
         color: var(--accent-color-1);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.3rem;
     }
     </style>
     """, unsafe_allow_html=True)
