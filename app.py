@@ -34,7 +34,7 @@ def main():
         --accent-color-1: #8B0000;
         --accent-color-2: #4B0082;
         --text-color: black;
-        --background-color: sky;
+        --background-color: black;
     }
 
     html, body, [class*="css"] {
