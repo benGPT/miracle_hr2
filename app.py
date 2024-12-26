@@ -34,7 +34,7 @@ def main():
         --accent-color-1: #8B0000;
         --accent-color-2: #4B0082;
         --text-color: blue;
-        --background-color: none;
+        --background-color: lemonchiffon;
     }
 
     html, body, [class*="css"] {
@@ -96,21 +96,7 @@ def main():
     .accent-text {
         color: blue;
         font-weight: bold;
-    }
 
-    /* Mobile optimization */  
-    @media (max-width: 768px) {
-        html, body, [class*="css"] {
-            font-size: 11px;
-        }
-
-        .stButton > button {
-            padding: 0.3rem 0.6rem;
-        }
-
-        .card {
-            padding: 1rem;
-        }
     }
     </style>
     """, unsafe_allow_html=True)
