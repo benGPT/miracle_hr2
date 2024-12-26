@@ -281,10 +281,10 @@ def show_registration_page():
         margin: auto;
     }
     .auth-container h1 {
-        color: #006400;
+        color: pink;
     }
     .stButton > button {
-        background-color: #006400;
+        background-color: blue;
         color: white;
     }
     .stButton > button:hover {
